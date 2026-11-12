@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- EDIT: your name + one-line description -->
+  <title>Your Name — AI/ML Student & Builder</title>
+  <meta name="description" content="Your Name is a CSE (AI/ML) undergrad building machine learning projects. See projects, skills and get in touch." />
+  <meta name="theme-color" content="#fff7ec" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✦</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400;1,9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Set theme before paint to avoid a flash -->
+  <script>
+    try {
+      var t = localStorage.getItem("theme");
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to content</a>
+
+  <header class="nav">
+    <a href="#top" class="logo" aria-label="Home">✦ <span>yourname</span></a>
+    <nav id="menu" class="links" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle theme">
+        <span class="sun">☀</span><span class="moon">☾</span>
+      </button>
+      <button id="menuToggle" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+
+      <p class="eyebrow reveal">CSE · AI &amp; ML · Sophomore</p>
+      <h1 class="reveal">
+        Hi, I'm <span class="name">Your Name</span>.<br />
+        I teach machines to <em class="hl">learn</em> useful things.
+      </h1>
+      <p class="lead reveal">
+        <!-- EDIT: one honest sentence about what you're into -->
+        Second-year undergrad exploring machine learning, one messy notebook at a time. I like turning
+        models into things people can actually click on.
+      </p>
+      <div class="cta reveal">
+        <a class="btn primary" href="#work">View my work →</a>
+        <a class="btn ghost" href="#contact">Say hello</a>
+      </div>
+
+      <div class="sticker s1" aria-hidden="true">Python 🐍</div>
+      <div class="sticker s2" aria-hidden="true">PyTorch 🔥</div>
+      <div class="sticker s3" aria-hidden="true">Always learning ✨</div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Machine Learning</span><i>✦</i><span>Deep Learning</span><i>✦</i><span>Computer Vision</span><i>✦</i><span>NLP</span><i>✦</i><span>Data Science</span><i>✦</i>
+        <span>Machine Learning</span><i>✦</i><span>Deep Learning</span><i>✦</i><span>Computer Vision</span><i>✦</i><span>NLP</span><i>✦</i><span>Data Science</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <section id="work" class="section">
+      <div class="section-head reveal">
+        <span class="num">01</span>
+        <h2>Selected <em>work</em></h2>
+        <p>A few things I've built. Each one: the problem, what I did, and what happened.</p>
+      </div>
+
+      <div class="grid">
+        <!-- EDIT: replace each card with a real project. Keep 3-5 max. -->
+        <article class="card c-coral reveal">
+          <div class="card-top"><span class="tag">Computer Vision</span><span class="year">2026</span></div>
+          <h3>Project One Title</h3>
+          <p class="problem"><strong>Problem:</strong> One sentence on what you were trying to solve.</p>
+          <p><strong>What I did:</strong> Your role, the approach, one decision you made and why.</p>
+          <p><strong>Result:</strong> A number if you have one, e.g. "92% accuracy on the test set."</p>
+          <ul class="stack"><li>Python</li><li>PyTorch</li><li>OpenCV</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Live demo ↗</a>
+            <a href="#" target="_blank" rel="noopener">Code ↗</a>
+          </div>
+        </article>
+
+        <article class="card c-violet reveal">
+          <div class="card-top"><span class="tag">NLP</span><span class="year">2026</span></div>
+          <h3>Project Two Title</h3>
+          <p class="problem"><strong>Problem:</strong> One sentence on what you were trying to solve.</p>
+          <p><strong>What I did:</strong> Your role, the approach, one decision you made and why.</p>
+          <p><strong>Result:</strong> What changed or what you learned.</p>
+          <ul class="stack"><li>Python</li><li>Hugging Face</li><li>Streamlit</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Live demo ↗</a>
+            <a href="#" target="_blank" rel="noopener">Code ↗</a>
+          </div>
+        </article>
+
+        <article class="card c-mint reveal">
+          <div class="card-top"><span class="tag">Data Science</span><span class="year">2025</span></div>
+          <h3>Project Three Title</h3>
+          <p class="problem"><strong>Problem:</strong> One sentence on what you were trying to solve.</p>
+          <p><strong>What I did:</strong> Your role, the approach, one decision you made and why.</p>
+          <p><strong>Result:</strong> What changed or what you learned.</p>
+          <ul class="stack"><li>Pandas</li><li>scikit-learn</li><li>Matplotlib</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Notebook ↗</a>
+            <a href="#" target="_blank" rel="noopener">Code ↗</a>
+          </div>
+        </article>
+
+        <article class="card c-sun reveal">
+          <div class="card-top"><span class="tag">Web + ML</span><span class="year">2025</span></div>
+          <h3>Project Four Title</h3>
+          <p class="problem"><strong>Problem:</strong> One sentence on what you were trying to solve.</p>
+          <p><strong>What I did:</strong> Your role, the approach, one decision you made and why.</p>
+          <p><strong>Result:</strong> What changed or what you learned.</p>
+          <ul class="stack"><li>Flask</li><li>TensorFlow</li><li>HTML/CSS</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Live demo ↗</a>
+            <a href="#" target="_blank" rel="noopener">Code ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="section-head reveal">
+        <span class="num">02</span>
+        <h2>A little <em>about me</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="photo reveal">
+          <!-- EDIT: replace with <img src="me.jpg" alt="Your Name" /> -->
+          <div class="photo-ph">YN</div>
+        </div>
+        <div class="about-text reveal">
+          <!-- EDIT: keep it to 2 short paragraphs -->
+          <p>
+            I'm a sophomore at <strong>Your College</strong>, majoring in Computer Science with a
+            specialisation in AI &amp; ML. I got hooked on machine learning when <em>one short story about how you started</em>.
+          </p>
+          <p>
+            Outside of class I <em>hackathons / clubs / open source / sports / music</em>. Right now I'm
+            looking for <strong>internships and research opportunities</strong> in ML.
+          </p>
+          <div class="now">
+            <h3>Currently</h3>
+            <ul>
+              <li>📚 Learning: <em>e.g. transformers from scratch</em></li>
+              <li>🛠 Building: <em>e.g. a study-notes summariser</em></li>
+              <li>🎯 Aiming for: <em>e.g. a summer ML internship</em></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <span class="num">03</span>
+        <h2>Tools I <em>reach for</em></h2>
+        <p>Grouped by what I use them for. No percentage bars, they don't mean anything.</p>
+      </div>
+      <div class="skills">
+        <!-- EDIT: only list what you can talk about in an interview -->
+        <div class="skill-group reveal">
+          <h3>Languages</h3>
+          <ul class="chips"><li>Python</li><li>C++</li><li>JavaScript</li><li>SQL</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>ML &amp; Data</h3>
+          <ul class="chips"><li>PyTorch</li><li>TensorFlow</li><li>scikit-learn</li><li>Pandas</li><li>NumPy</li><li>OpenCV</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Build &amp; Ship</h3>
+          <ul class="chips"><li>Git &amp; GitHub</li><li>Flask</li><li>Streamlit</li><li>Jupyter</li><li>Linux</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="section-head reveal">
+        <span class="num">04</span>
+        <h2>Let's <em>talk</em></h2>
+        <p>Open to internships, research projects and collabs. I reply within a day or two.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- EDIT: set your Formspree ID in script.js (see README) -->
+        <form id="contactForm" class="form reveal" novalidate>
+          <label>Name
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>Email
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn primary">Send message →</button>
+          <p id="formStatus" class="status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="socials reveal">
+          <!-- EDIT: your real links -->
+          <a href="mailto:you@example.com" class="social">✉ you@example.com</a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="social">⌥ GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" class="social">in LinkedIn</a>
+          <a href="https://www.kaggle.com/yourusername" target="_blank" rel="noopener" class="social">◈ Kaggle</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Your Name · Built by hand with HTML, CSS &amp; a little JS</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
